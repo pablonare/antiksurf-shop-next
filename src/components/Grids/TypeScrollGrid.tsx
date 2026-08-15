@@ -1,13 +1,15 @@
 import { PRODUCTS_BY_TYPE_QUERY } from "@/lib/shopify/queries";
 import { shopifyClient } from "@/lib/shopify/client";
-import ProductsGrid from "@/components/shop/components/ProductGrid/ProductGrid";
+import ProductsScrollGrid from "@/components/Grids/ScrollGrid/ProductsScrollGrid";
 
-export default async function CollectionScrollGrid({
+export default async function TypeScrollGrid({
   type,
   heading,
+  headingHref,
 }: {
   type: string;
   heading: string;
+  headingHref?: string;
 }) {
   const { data } = await shopifyClient.request(PRODUCTS_BY_TYPE_QUERY, {
     variables: {
@@ -17,5 +19,11 @@ export default async function CollectionScrollGrid({
 
   const products = data?.products?.nodes ?? [];
 
-  return <ProductsGrid heading={heading} products={products} />;
+  return (
+    <ProductsScrollGrid
+      heading={heading}
+      headingHref={headingHref}
+      products={products}
+    />
+  );
 }

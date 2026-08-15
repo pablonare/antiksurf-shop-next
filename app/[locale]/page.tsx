@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
-import Hero from "@/components/shop/hero/Hero";
-import TypeScrollGrid from "@/components/shop/components/TypeScrollGrid";
+import Hero from "@/components/home/hero/Hero";
+import TypeScrollGrid from "@/components/Grids/TypeScrollGrid";
 
 import Container from "@/components/ui/Container/Container";
 

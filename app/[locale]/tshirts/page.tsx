@@ -3,9 +3,9 @@ import type { Metadata } from "next";
 import { shopifyClient } from "@/lib/shopify/client";
 import { PRODUCTS_QUERY, PRODUCTS_BY_TYPE_QUERY } from "@/lib/shopify/queries";
 
-import Hero from "@/components/shop/hero/Hero";
-import ShopNavigation from "@/components/shop/shopnavigation/ShopNavigation";
-import TypeGrid from "@/components/shop/components/TypeGrid";
+import Hero from "@/components/home/hero/Hero";
+import ShopNavigation from "@/components/shopnavigation/ShopNavigation";
+import TypeGrid from "@/components/Grids/TypeGrid";
 import Container from "@/components/ui/Container/Container";
 
 export const metadata: Metadata = {

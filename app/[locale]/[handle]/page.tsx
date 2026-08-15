@@ -1,7 +1,7 @@
 import { shopifyClient } from "@/lib/shopify/client";
 import { PRODUCT_BY_HANDLE_QUERY } from "@/lib/shopify/queries";
 import { notFound } from "next/navigation";
-import ProductDetail from "@/components/shop/components/ProductDetail/ProductDetail";
+import ProductDetail from "@/components/Grids/ProductDetail/ProductDetail";
 
 export default async function ProductPage({
   params,

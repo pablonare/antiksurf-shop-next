@@ -1,6 +1,6 @@
 import { COLLECTION_BY_HANDLE_QUERY } from "@/lib/shopify/queries";
 import { shopifyClient } from "@/lib/shopify/client";
-import ProductsScrollGrid from "@/components/shop/components/ScrollGrid/ProductsScrollGrid";
+import ProductsScrollGrid from "@/components/Grids/ScrollGrid/ProductsScrollGrid";
 
 export default async function CollectionScrollGrid({
   handle,
