@@ -1,0 +1,10 @@
+{
+    "cart": {
+    "title": "Tu carrito",
+    "close": "Cerrar carrito",
+    "empty": "Tu carrito está vacío.",
+    "remove": "Eliminar",
+    "subtotal": "Subtotal",
+    "checkout": "Finalizar compra"
+    }
+}

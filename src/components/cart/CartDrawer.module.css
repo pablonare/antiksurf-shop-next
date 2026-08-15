@@ -1,0 +1,129 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 100;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: min(400px, 100vw);
+  background: white;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.header button {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+
+.empty {
+  color: #666;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  flex: 1;
+}
+
+.line {
+  display: flex;
+  gap: 1rem;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.lineInfo {
+  flex: 1;
+}
+
+.lineTitle {
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+.lineVariant {
+  font-size: 0.85rem;
+  color: #666;
+  margin: 0 0 0.25rem;
+}
+
+.linePrice {
+  margin: 0 0 0.5rem;
+}
+
+.qtyRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.qtyButton{
+  border: 1px solid #ddd;
+  background: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.removeButton {
+  margin-left: auto;
+  border: none;
+  background: none;
+  text-decoration: underline;
+  font-size: 0.85rem;
+  color: #999;
+  width: auto;
+}
+
+.footer {
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.subtotal {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.checkoutButton {
+  display: block;
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 0.875rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}

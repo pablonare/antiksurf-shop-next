@@ -1,0 +1,38 @@
+.section {
+  padding-block: 48px;
+}
+
+.none {
+  padding-block: 0;
+}
+
+.sm {
+  padding-block: 24px;
+}
+
+.md {
+  padding-block: 48px;
+}
+
+.lg {
+  padding-block: 96px;
+}
+
+.xlg{
+  padding-block: 120px;
+}
+
+@media (max-width: 768px) {
+  
+  .sm {
+    padding-block: 20px;
+  }
+
+  .md {
+    padding-block:  60px;;
+  }
+
+  .lg {
+  padding-block: 80px;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "cart": {
+  "title": "Votre panier",
+  "close": "Fermer le panier",
+  "empty": "Votre panier est vide.",
+  "remove": "Supprimer",
+  "subtotal": "Sous-total",
+  "checkout": "Passer au paiement"
+  }
+}

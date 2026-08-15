@@ -1,0 +1,45 @@
+.navigation {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.95);
+  border-top: 0.25px solid rgb(255, 255, 255);
+  border-bottom: 0.25px solid rgb(255, 253, 253);
+  
+
+  position: sticky;
+  z-index:10;
+  top: 0;
+}
+
+.scroller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.link {
+  flex-shrink: 0;
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.2rem;
+  white-space: nowrap;
+}
+
+.link:active {
+  color: var(--color-secondary);
+}
+
+@media (max-width: 640px) {
+
+  .link {
+  font-size: 1.2rem;
+  }
+
+  .scroller {
+    gap: 1.5rem;
+  }
+
+  .scroller::-webkit-scrollbar {
+    display: none;
+  }
+}

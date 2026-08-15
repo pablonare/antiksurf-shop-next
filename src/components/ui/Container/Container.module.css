@@ -1,0 +1,10 @@
+.container {
+  width: 100%;
+  padding-inline: clamp(16px, 4vw, 64px);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-inline: 14px;
+    }
+}

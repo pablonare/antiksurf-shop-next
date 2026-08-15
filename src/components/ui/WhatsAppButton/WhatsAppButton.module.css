@@ -1,0 +1,37 @@
+.button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 1000;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 62px;
+    height: 62px;
+    border-radius: 100%;
+    background: #111111;
+    color: #ffffff;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    background: #2b2b2b;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26);
+}
+
+.button svg {
+    width: 25px;
+    height: 25px;
+    fill: currentColor;
+}
+
+@media (max-width: 480px) {
+    .button {
+        right: 14px;
+        bottom: 14px;
+        width: 56px;
+        height: 56px;
+    }
+}

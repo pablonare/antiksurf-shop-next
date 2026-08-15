@@ -1,0 +1,82 @@
+/* patterns.css */
+.section-kicker {
+    margin-bottom: 1ch;
+    color: var(--color-secondary);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.section-title {
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+    font-size: clamp(2.5rem, 4vw, 4.5rem);
+    line-height: 0.96;
+}
+
+.section-subtitle {
+
+    margin-bottom: 2rem;
+
+    font-size: 1.2rem;
+    line-height: 1.6;
+    /* font-weight: 700; */
+}
+
+.hero-kicker {
+
+    margin-bottom: 1ch;
+    color: var(--color-secondary);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+.hero-title {
+    margin-bottom: 1rem;
+    color: var(--color-white);
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    line-height: 0.96;
+}
+
+.hero-subtitle {
+
+    margin-bottom: 2rem;
+    color: var(--color-white);
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: 700;
+}
+
+
+@media (max-width: 768px) {
+    .hero-kicker {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+
+    .hero-title {
+        font-size: clamp(1.8rem, 6vw, 2.8rem);
+        line-height: 1.05;
+    }
+
+    .hero-subtitle {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    .section-kicker {
+        font-size: 0.8rem;
+        line-height: 1.4;
+    }
+
+    .section-title {
+        font-size: clamp(1.8rem, 4vw, 2.8rem);
+        line-height: 1.05;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+}

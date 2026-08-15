@@ -1,0 +1,18 @@
+.switcher {
+  display: flex;
+  gap: 12px;
+}
+
+
+.switcher button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+.active {
+  font-weight: 700;
+  color: var(--color-secondary);
+}
