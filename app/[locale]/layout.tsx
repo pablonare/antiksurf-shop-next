@@ -23,12 +23,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://antiksurf.com"),
 
     title: {
-    default: "Antik Surf Club",
+    default: "Antik Surf Shop",
     template: "%s | Antik Surf Club",
     },
 
     description:
-    "Surf lessons, surf trips and unforgettable experiences in Asilah, Morocco.",
+    "Antik Surf Shop selection of surf-inspired products, gear and essentials.",
 
     icons: {
       icon: [
@@ -50,10 +50,10 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Antik Surf Club",
     locale: "en_US",
-    title: "Antik Surf Club | Surf Club in Asilah, Morocco",
+    title: "Antik Surf Shop",
     description:
-    "Surf lessons, surf trips and unforgettable experiences in Asilah, Morocco.",
-    url: "https://antiksurf.com/",
+    "Antik Surf Shop selection of surf-inspired products, gear and essentials.",
+    // url: "https://antiksurf.com/",
     images: [
         {
           url: "/og-image.jpg",
