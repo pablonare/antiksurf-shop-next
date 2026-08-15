@@ -52,10 +52,15 @@ function MobileMenu() {
         </div>
 
         <nav className={styles.navigation}>
-          <Link href="/shop/tshirts">
+
+          <Link href="/">
+            Home
+          </Link>
+
+          <Link href="/tshirts">
             t-shirts
           </Link>
-          
+{/*           
           <Link href="/shop" className={styles.link}>
             hoodies
           </Link>
@@ -66,7 +71,7 @@ function MobileMenu() {
           
           <Link href="/shop" className={styles.link}>
             accessories
-          </Link>
+          </Link> */}
 
           <a
             href="https://antiksurf.com"

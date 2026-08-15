@@ -57,10 +57,7 @@ export default function ProductsScrollGrid({
           {products.map((product) => {
             const price = product.variants.nodes[0]?.price;
 
-            const href =
-              product.productType === "surftrip"
-                ? `/surftrips/${product.handle}`
-                : `/shop/${product.handle}`;
+            const href = `/${product.handle}`;
 
             return (
               <Link

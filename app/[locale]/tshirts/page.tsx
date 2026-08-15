@@ -38,7 +38,7 @@ export default async function Page() {
   return (
     <>
       <Hero />
-      <ShopNavigation />
+      {/* <ShopNavigation /> */}
       <Container>
         <TypeGrid
           type="tienda"
