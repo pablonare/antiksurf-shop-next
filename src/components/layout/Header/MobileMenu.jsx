@@ -77,6 +77,7 @@ function MobileMenu() {
             href="https://antiksurf.com"
             target="_blank"
             rel="noopener noreferrer"
+            className={styles.antik}
             onClick={() => setIsOpen(false)}
           >
             {t("home")}
